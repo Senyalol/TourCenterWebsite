@@ -1,0 +1,53 @@
+/* GetHotels.css */
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0;
+  }
+  
+  .hotel-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #fff;
+    transition: 0.3s; /* Анимация при наведении */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hotel-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Эффект наведения */
+  }
+  
+  .hotel-title {
+    margin: 0;
+    color: #4CAF50; /* Цвет заголовка отеля */
+    font-size: 1.5em;
+  }
+  
+  .hotel-description {
+    color: #666; /* Цвет описания отеля */
+  }
+  
+  .hotel-price {
+    font-weight: bold;
+    color: #333; /* Цвет цены */
+    margin: 10px 0;
+  }
+  
+  .hotel-rating {
+    color: #FFD700; /* Цвет звезд рейтинга */
+  }

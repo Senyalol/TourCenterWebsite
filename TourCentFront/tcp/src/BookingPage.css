@@ -1,0 +1,48 @@
+/* GetTours.css */
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0;
+  }
+  
+  .tour-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #fff;
+    transition: 0.3s; /* Анимация при наведении */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tour-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Эффект наведения */
+  }
+  
+  .tour-name {
+    margin: 0;
+    color: #4CAF50; /* Цвет заголовка тура */
+  }
+  
+  .tour-description {
+    color: #666; /* Цвет описания тура */
+  }
+  
+  .tour-price {
+    font-weight: bold;
+    color: #333; /* Цвет цены */
+    margin: 10px 0;
+  }

@@ -1,0 +1,9 @@
+/* src/Header.css */
+button {
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+  }

@@ -1,0 +1,70 @@
+.photos{
+    width: 1400px;
+    height: 700px;
+};
+
+.marg{
+    margin-top:  20px;
+    margin-right: 900px;
+}
+
+/* src/components/Slider.css */
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .slider:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .slider img {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+  }
+  
+  .slider img:hover {
+    transform: scale(1.05);
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+
+  .InputLog{
+    margin-left: 40px;
+    width: 210px;
+    height: 25px;
+  }
+
+  .InputPass{
+    margin-left: 120px;
+    margin-top: 10px;
+    width: 210px;
+    height: 25px;
+  }
